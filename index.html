@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Doe - Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of John Doe, a web developer specializing in modern web applications." />
+  <link rel="canonical" href="https://johndoe.dev/" />
+
+  <!-- Preload key resources -->
+  <link rel="preload" href="img/profile.jpg" as="image" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="John Doe - Web Developer Portfolio" />
+  <meta property="og:description" content="Portfolio of John Doe, a web developer..." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://johndoe.dev/" />
+  <meta property="og:image" content="https://johndoe.dev/img/profile.jpg" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="John Doe - Web Developer Portfolio" />
+  <meta name="twitter:description" content="Portfolio of John Doe, a web developer..." />
+  <meta name="twitter:image" content="https://johndoe.dev/img/profile.jpg" />
+
+  <!-- Inline Critical CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1em;
+    }
+    img {
+      border-radius: 50%;
+      max-width: 150px;
+      height: auto;
+    }
+    section {
+      margin-top: 2rem;
+    }
+  </style>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "John Doe",
+    "url": "https://johndoe.dev",
+    "image": "https://johndoe.dev/img/profile.jpg",
+    "jobTitle": "Web Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelance"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/johndoe",
+      "https://github.com/johndoe"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <h2>Web Developer</h2>
+    <img src="img/profile.jpg" alt="John Doe profile picture" />
+  </header>
+  <main>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Examples of my work in web development.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email me at john@doe.dev</p>
+    </section>
+  </main>
+  <script src="monitoring.js" defer></script>
+</body>
+</html>
